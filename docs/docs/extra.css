@@ -1,0 +1,44 @@
+/* extra.css */
+.profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-text {
+    text-align: center;
+}
+
+/* Estilos para os cards */
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.card h2, .card h3 {
+    margin-top: 0;
+}
+
+/* Estilo para a lista de interesses */
+.interests {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests li {
+    background: #007acc;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 8px;
+    border-radius: 4px;
+}

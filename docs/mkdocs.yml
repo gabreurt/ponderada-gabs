@@ -1,0 +1,8 @@
+site_name: "Documentação da ponderada da semana 7"
+theme:
+  name: "material"
+nav:
+  - Home: index.md
+  - Sobre: about.md
+extra_css:
+  - extra.css
